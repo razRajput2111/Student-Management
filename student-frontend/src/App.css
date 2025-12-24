@@ -1,0 +1,62 @@
+/* 1️⃣ Page Container */
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5; /* light gray background */
+  color: #333;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1976d2;
+}
+/* 2️⃣ Form Card */
+.form-card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+.form-card input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+/* 3️⃣ Buttons */
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  margin-right: 5px;
+}
+.button-add { background-color: #4caf50; }
+.button-update { background-color: #2196F3; }
+.button-delete { background-color: #f44336; }
+.button-fetch { background-color: #ff9800; }
+button:hover {
+  opacity: 0.9;
+}
+/* 4️⃣ Table (View Students) */
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+.student-table th, .student-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.student-table th {
+  background-color: #1976d2;
+  color: white;
+}
+.student-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
